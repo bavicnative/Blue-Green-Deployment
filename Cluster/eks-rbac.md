@@ -1,5 +1,18 @@
 ## Create Service Account, Role, ClusterRole & Assign that role, And create a secret for Service Account and genrate a Token
 
+### Creating Namespace
+
+kubectl create ns webapps
+
+
+```yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jenkins
+  namespace: webapps
+```
+
 ### Creating Service Account
 
 
