@@ -4,15 +4,6 @@
 
 kubectl create ns webapps
 
-
-```yaml
-apiVersion: v1
-kind: ServiceAccount
-metadata:
-  name: jenkins
-  namespace: webapps
-```
-
 ### Creating Service Account
 
 
